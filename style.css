@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Newsreader", serif;
+  color: #1a2327;
+}
+
+/* STYLING FOR THE NAVIGATION BAR START */
+header {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  border-bottom: 1px solid #ff5757;
+}
+
+figure a img {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 3rem;
+}
+
+nav li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fa4141;
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 50%;
+  transition: all 0.3s ease 0.1s;
+}
+
+nav ul li a:hover {
+  margin-bottom: 10px;
+}
+
+.primary-btn {
+  width: 6rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: #fa4141;
+  font-size: 1.1rem;
+  transition: all 0.3s ease 0.1s;
+}
+
+.primary-btn:hover {
+  margin-bottom: 10px;
+}
+
+/* STYLING FOR THE NAVIGATION BAR END */
+
+/* STYLING FOR THE HERO SECTION START */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+}
+
+.left-hero {
+  padding: 90px 0 0 130px;
+}
+
+.left-hero h1 {
+  font-size: 70px;
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+
+.left-hero .dot {
+  font-size: 70px;
+  color: #fa4141;
+}
+
+.left-hero p {
+  font-family: "Bitter", serif;
+  font-size: 24px;
+  /* letter-spacing: 0.08em; */
+  line-height: 2.6rem;
+}
